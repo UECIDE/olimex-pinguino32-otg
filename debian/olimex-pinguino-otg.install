@@ -1,0 +1,6 @@
+Board_Data.c boards/Olimex/olimex-pinguino-otg
+Board_Defs.h boards/Olimex/olimex-pinguino-otg
+board.txt boards/Olimex/olimex-pinguino-otg
+chipKIT-application-32MX440F256-pinguino.ld boards/Olimex/olimex-pinguino-otg
+icons/ boards/Olimex/olimex-pinguino-otg
+tools/ boards/Olimex/olimex-pinguino-otg
