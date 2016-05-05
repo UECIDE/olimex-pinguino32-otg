@@ -7,7 +7,7 @@ XBSC-TieCore: chipkit
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: olimex-pinguino-otg
+Package: olimex-pinguino32-otg
 Section: boards
 Architecture: all
 XBSC-Group: Olimex
