@@ -45,3 +45,12 @@ icon.16=icons/ping16.png
 
 bootloader.file=${board:root}/bootloader
 
+options.usb.a_cdcacm.flags=-D__USB_ENABLED__::-D__USB_CDCACM__::-D__SERIAL_IS_USB__
+options.usb.a_cdcacm.name=Serial
+options.usb.b_cdcacm_km.flags=-D__USB_ENABLED__::-D__USB_CDCACM_KM__::-D__SERIAL_IS_USB__
+options.usb.b_cdcacm_km.name=Serial, Keyboard & Mouse
+options.usb.default=b_cdcacm_km
+options.usb.name=USB
+options.usb.purge=true
+options.usb.z_custom.name=Custom
+
