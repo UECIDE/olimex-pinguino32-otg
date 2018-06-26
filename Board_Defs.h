@@ -404,6 +404,10 @@ extern const uint8_t	analog_pin_to_channel_PGM[];
 
 #endif	// OPT_BOARD_INTERNAL
 
+#define DefineSDSPI(spi) DSPI0 spi
+#define DefineDSDVOL(vol, spi) DSDVOL vol(spi, 8)     // Create an DSDVOL object
+
+
 /* ------------------------------------------------------------ */
 
 #endif	// BOARD_DEFS_H
